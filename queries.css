@@ -1,0 +1,172 @@
+@media only screen and (max-width: 1200px) {
+  div.hero-background-pos {
+    left: 69%;
+    width: 125px;
+    height: 125px;
+  }
+}
+
+@media only screen and (max-width: 1105px) {
+  div.hero-background-pos {
+    left: 72%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  div.hero-background-pos {
+    left: 72%;
+  }
+}
+
+@media only screen and (max-width: 898px) {
+  div.hero-background-pos {
+    left: 76%;
+  }
+
+  div.hero-content-heading h3 {
+    font-size: 1.5rem;
+  }
+
+  ul li {
+    margin: 0 1vw;
+    font-size: 1rem;
+  }
+
+  div.logo {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  div.hero-content-heading h3 {
+    font-size: 1.2rem;
+  }
+
+  div.hero-content-heading p {
+    font-size: 0.8rem;
+  }
+
+  div.hero-content-btn a {
+    padding: 5px 10px;
+  }
+
+  div.background p {
+    font-size: 0.8rem;
+  }
+
+  div.hero-background-pos {
+    left: 69%;
+    width: 125px;
+    height: 125px;
+  }
+
+  div.hero-background-pos {
+    position: absolute;
+    right: 0px;
+    left: 74%;
+    top: 204%;
+    width: 115px;
+    height: 115px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  ul.nav-links {
+    display: none;
+    flex-direction: column;
+  }
+
+  .icon {
+    display: inline-block;
+  }
+
+  ul.nav-links li {
+    margin-bottom: 5px;
+  }
+  /*
+  ul.nav-links li a:link,
+  ul.nav-links li a:visited {
+    border: 0;
+  } */
+
+  div.nav-bar {
+    padding: 1rem 2rem;
+  }
+
+  div.hero-section {
+    padding: 4rem;
+  }
+
+  div.hero-content-heading p {
+    font-size: 0.8rem;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  div.hero-background-pos {
+    display: none;
+  }
+
+  div.snapshot-team p {
+    font-size: 0.8rem;
+  }
+
+  div.snapshot-box-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  div.background {
+    height: 214px;
+  }
+
+  div.hero-background {
+    padding: 3rem;
+  }
+
+  div.background h4 {
+    padding: 1rem;
+  }
+
+  div.background p {
+    padding-left: 1rem;
+  }
+
+  div.snapshot-team h2 {
+    font-size: 1rem;
+  }
+
+  div.gallery-content h4 {
+    font-size: 1rem;
+  }
+
+  div.gallery-content p {
+    font-size: 0.7rem;
+  }
+
+  div.footer-input {
+    flex-direction: column;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    margin-bottom: 10px;
+    width: 90%;
+    margin-right: 0px;
+    font-size: 0.8rem;
+  }
+
+  textarea {
+    width: 90%;
+    height: 110px;
+  }
+
+  div.footer-content p {
+    font-size: 0.8rem;
+  }
+
+  div.footer-content h4 {
+    font-size: 1rem;
+  }
+}
